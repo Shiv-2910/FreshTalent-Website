@@ -1,0 +1,553 @@
+/* 
+    Stylesheet: Main Prototype for "FRESH TALENT"
+    Created by: Shiv Patel
+*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    background-color: #1d1d1d;
+}
+
+/* Base style for all h1 style */
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+.top-nav {
+    background-color: #FFDD16;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.top-nav img {
+    width: 55%;
+    height: auto;
+}
+
+main {
+    margin: 20px 0;
+}
+
+/* Illustration on main page */
+.clip-art {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.clip-art img {
+    width: 85%;
+    height: auto;
+}
+
+.intro {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.intro h1 {
+        font-weight: 800;
+        font-size: 30px;
+        margin: 7px 0;
+}
+
+.intro p {
+    padding: 0 20px;
+    margin: 5px 0;
+}
+
+/* Button styling*/
+.proceed {
+    background-color: #FFDD16;
+    padding: 15px 30px;
+    font-weight: 850;
+    border-radius: 40px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/* Hover for the "apply now" button*/
+.proceed:hover {
+    background-color: #1d1d1d;
+    border: solid #FFDD16 2px;
+    color:#FFDD16;
+}
+
+/* Footer it would be common for all pages*/
+footer {
+    background-color: #FFDD16;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ftitle h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ftitle a {
+    font-weight: 500;
+    
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.ftitle a:hover {
+    text-decoration: underline;
+}
+
+.follow {
+    margin: 10px 0 0 0;
+}
+
+.follow a {
+    margin: 10px;
+}
+
+.follow a:hover {
+    color:#fff;
+}
+
+/* Sign up form styles*/
+.f-style {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+    padding: 0 25px;
+}
+
+.f-style h1 {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 7px 0;
+}
+
+/* Log in link*/
+.l-btn a {
+    color: #FFDD16;
+}
+
+.l-btn a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#f-text label {
+    color: #fff;
+    text-align: left;
+}
+
+#toggling a {
+    padding: 0 10px;
+}
+
+/* Back button signups*/
+.s-btn {
+    background-color: #1d1d1d;
+    border: solid #FFDD16 2px;
+    color:#FFDD16;
+    padding: 15px 30px;
+    font-weight: 850;
+    border-radius: 40px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/*Illustration of resume*/
+.resume-g {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.resume-g img {
+    width: 65%;
+    height: auto;
+}
+
+/* Resume builder section title*/
+.s-title {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+/* Adjusting form's label length */
+.l-length {
+    padding: 0 10px;
+}
+
+/* Buttons styling in form*/
+.add-btn {
+    background-color: #1d1d1d;
+    border: solid #ffffff 2px;
+    color:#ffffff;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 5px 0 10px 0;
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background-color: #ffffff;
+    color:#1d1d1d;
+    border: solid #ffffff 2px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.save-back-btn {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* 
+    DASHOBOARD CSS begins
+    Top navigation bar 
+*/
+
+.d-top-nav {
+    background-color: #FFDD16;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.d-top-nav img {
+    width: 80%;
+    height: auto;
+    padding: 5px 0;
+}
+
+.nav-icons {
+    text-align: right;
+    font-size: 24px;
+    padding: 5px 20px 5px 65px;
+}
+
+.nav-icons ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-icons li {
+    display: inline;
+}
+
+.nav-icons ul li a {
+    list-style-type: none;
+    color: #1d1d1d;
+    padding: 0 0 0 30px;
+}
+
+.nav-icons a:hover {
+    color: #fff;
+}
+
+/* Main Navigation Bar */
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.main-nav a {
+    color: #fff;
+}
+
+/* Scroll Menu*/
+.main-content {
+    margin-bottom: 0;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.search-bar {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    margin: 0;
+}
+
+/* Job listings CSS */
+.jobs {
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.jobs img {
+    width: 20%;
+}
+
+.j-lists {
+    border: solid #FFDD16 1px;
+    background-color: #232323;
+    border-radius: 4px;
+    margin: 0 0 30px 0;
+}
+
+.j-lists h1 {
+    color:#FFDD16
+}
+
+#hide-it {
+    display: none;
+}
+
+/*
+    PROFILE Page CSS begins
+*/
+.content {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.p-title {
+    color:#fff;
+}
+
+.p-title h1 {
+    color: #FFDD16;
+}
+
+.p-title h2 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.p-title h2 i {
+    padding: 0 10px 0 0;
+}
+
+.resume-section {
+    margin: 40px 0;
+    color: #fff;
+}
+
+.resume-section h1 {
+    color:#FFDD16;
+}
+
+.resume-section img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.log-out {
+    text-align: center;
+}
+
+/* Notifications */
+.n-title {
+    color: #fff;
+    padding: 0 20px;
+}
+
+.n-title h1 {
+    text-align: center;
+}
+
+.notify {
+    color: #fff;
+    margin: 20px 0 40px 0;
+}
+
+.notify h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.notify h2 i {
+    padding: 0 10px 0 0;
+}
+
+/* Styling for TABLET VIEW*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Logo adjustment*/
+    .top-nav img {
+        width: 35%;
+        height: auto;
+    }
+
+    .clip-art img {
+        width: 45%;
+        height: auto;
+    }
+
+    /* Footer adjustment*/
+    .follow {
+        margin: 0;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    #f-text {
+        padding: 0 150px;
+    }
+
+    .resume-g img {
+        width: 55%;
+        height: auto;
+    }
+
+    .f-style h1 {
+        font-size: 40px;
+    }
+
+    .f-style p {
+        padding: 0 80px;
+    }
+
+    .s-title h1 {
+        font-size: 30px;
+    }
+
+    /* Search Bar Dashboard page */
+    .search-bar {
+        padding: 0 100px;
+    }
+
+    .j-lists p {
+        font-size: 24px;
+    }
+
+    .nav-icons {
+        font-size: 36px;
+        padding: 15px 30px 15px 65px;
+    }
+
+    /* Notifications page */
+    .notify {
+        padding: 0 40px;
+    }
+
+    .notify h2 {
+        font-size: 30px;
+    }
+
+    .notify h2 i {
+        padding: 0 30px 0 0;
+    }
+
+    /* Profile page */
+    .p-title h2 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
+
+/* Styling for DESKTOP */
+@media only screen and (min-width: 1024px) {
+    .top-nav img {
+        width: 20%;
+        height: auto;
+    }
+
+    .clip-art img {
+        width: 45%;
+        height: auto;
+    }
+
+    .intro h1 {
+        font-size: 48px;
+    }
+
+    .f-style {
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #f-text {
+        padding: 0 300px;
+    }
+
+    .f-style h1 {
+        font-size: 36px;
+    }
+
+    .follow {
+        margin: 0;
+    }
+
+    .resume-g img {
+        width: 50%;
+    }
+
+    .s-title h1 {
+        font-size: 30px;
+    }
+
+    /* Dashboard CSS*/
+    .d-top-nav img {
+        width: 40%;
+        height: auto;
+    }
+
+    .nav-icons {
+        font-size: 24px;
+        padding: 12px 10px 12px 65px;
+    }
+
+    /* Search Bar */
+    .search-bar {
+        padding: 0 200px;
+    }
+
+    .job-info  {
+        display: block !important;
+        color: #fff;
+        padding: 0 10px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    /* Added bottom border to notifications section*/
+    .notify {
+        padding: 0 340px;
+        border-bottom: solid rgb(255, 255, 255, .5) 1px;
+    }
+
+    .notify h2 {
+        font-size: 30px;
+    }
+
+    .notify h2 i {
+        padding: 0 30px 0 0;
+    }
+
+    .btn-action a {
+        padding: 0 20px 0 0;
+    }
+
+}
